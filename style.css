@@ -1,0 +1,327 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+    color: #333; /* Default text color */
+}
+
+/* Header Styling */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #2575fc;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #2575fc;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+nav a:focus {
+    outline: none;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 15%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 40px;
+    color: black; /* Set text color to black for all sections */
+}
+
+/* About Section */
+#about {
+    background-image: url('Me.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Education Section */
+#education {
+    background-image: url('pexels-photo-574070.webp');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#education h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+    background-image: url('Tech.jpeg');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Achievements Section */
+#achivements {
+    background-image: url('images/achievements-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#achivements h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Projects Section */
+#projects {
+    background-image: url('images/projects-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Internships Section */
+#internships {
+    background-image: url('images/internships-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#internships h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Certificates Section */
+#certificates {
+    background-image: url('images/certificates-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#certificates h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Hobbies Section */
+#hobbies {
+    background-image: url('Language.webp');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#hobbies h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background-image: url('pexels-photo-574070.webp');
+    background-size: cover;
+    background-position: center center;
+    color: black; /* Override to ensure text is black */
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black color for headings */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Black border */
+    padding-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    font-size: 1rem;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #2575fc;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 50px 5%;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 40px 5%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 10px 12px;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
